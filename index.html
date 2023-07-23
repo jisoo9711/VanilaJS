@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body class="bg">
+
+
+    <div class="bg2">
+        <div class="boxleft">
+            <div class="randompic">
+                <div class="clockanddate">
+                    <div class="clock">00:00</div>
+                    <div class="date"></div>
+                </div>
+                <div id="weather" class="weather">
+                    <img id="weatherIcon" class="weatherIcon" alt="" />
+                    <span id="weatherInfo" class="weatherInfo"></span>
+                    <span class="airpollution"></span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="boxcentertop">
+            <form id="memo-form">
+                <input class="memoinput" type="text" placeholder="Wirte a memo and Press Enter" required />
+            </form>
+
+            <ul class="memoList" id="memolist"></ul>
+        </div>
+
+
+
+        <div class="boxright">
+            <span class="userinfostyle">
+                <h1 class="hidden" id="userinfo"></h1>
+                <div class="log">
+                    <form class="hidden" id="loginID">
+                        <input maxlength="10" class="nameinput" type="text" placeholder="name" required />
+                        <button class="loginbutton" type="submit" value="LogIn"><img src="img/sparkle.png" alt="">
+                        </button>
+                    </form>
+                </div>
+            </span>
+        </div>
+
+
+
+        <audio src="" id="audio"></audio>
+        <div class="boxcenterbottom" pause>
+            <h3 class="music">music1</h3>
+            <p class="artist">artist</p>
+            <div class="disk"></div>
+            <div class="controls">
+                <button class="btn backward-btn"><img src="img/rewind-button.png" alt=""></button>
+                <button class="playbtn pause">
+                    <span></span>
+                    <span></span>
+                </button>
+                <button class="btn forward-btn"><img src="img/fast-forward.png" alt=""></button>
+            </div>
+        </div>
+        <div class="boxcenterbottom2">
+            <div id="quote" class="quote">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="boxcenterbottom3">
+
+        </div>
+        <div>
+            <div class="photos"></div>
+            <div class="polaroid"></div>
+        </div>
+
+
+
+    </div>
+
+    <script src="js/date.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/memo.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/musicdata.js"></script>
+    <script src="js/musicplayer.js"></script>
+    <script src="js/quotes.js"></script>
+</body>
+
+</html>
