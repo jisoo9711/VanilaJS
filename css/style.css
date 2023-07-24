@@ -404,6 +404,7 @@
 
 .homeImg {
     background-image: url("../img/home.png");
+    filter: invert(75%) contrast(90%) sepia(25%);
     width: 100px;
     height: 100px;
     position: absolute;
