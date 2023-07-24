@@ -9,18 +9,6 @@
 }
 
 
-
-.bg {
-
-    margin: 0 auto;
-    width: 100%;
-    height: 450px;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: 100% 100%;
-
-}
-
 .bg2 {
 
     width: 1400px;
@@ -90,8 +78,7 @@
 }
 
 .userinfostyle {
-    color: #f6cf96;
-
+    color: #ecbeb4;
     position: absolute;
     width: 240px;
     height: 650px;
@@ -322,6 +309,7 @@
     top: 7px;
     position: relative;
     animation: fadeInUp 1s;
+    color: rgba(19, 19, 19, 0.742);
 
 }
 
@@ -358,20 +346,38 @@
     padding: 15px;
     line-height: 200%;
     list-style: none;
-    color: rgba(255 255 255 0.01);
-    width: 535px;
+    width: 545px;
     position: absolute;
-    left: 0px;
+    left: 15px;
     top: 50px;
-
     display: grid;
-    grid-template-rows: repeat(7, minmax(0, 1fr));
+
+}
+
+.memoList li {
+    text-indent: 0.5em;
+    background-color: #a9a8a83d;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 15px;
+    color: rgba(19, 19, 19, 0.798);
+    letter-spacing: 1px;
+
+
+}
+
+
+
+.memoList button {
+    background-color: transparent;
+    border: 0;
+    padding: 3px
 }
 
 .memoinput {
 
     text-align: center;
-    width: 560px;
+    width: 530px;
     height: 30px;
     font-size: 15px;
     font-family: 'Russo One', sans-serif;
@@ -381,8 +387,8 @@
     background-color: #ecbeb4;
     position: absolute;
     color: rgb(19, 19, 19, 0.742);
-    left: 15px;
-    top: 15px;
+    left: 35px;
+    top: 20px;
 }
 
 
@@ -450,7 +456,7 @@
 .weather {
     position: absolute;
     font-size: 1.1em;
-    color: rgba(19, 19, 19, 0.742);
+    color: rgba(19, 19, 19, 0.798);
 
 }
 
@@ -463,10 +469,10 @@
 
 .weatherIcon {
     position: absolute;
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     left: 100px;
-    top: 260px;
+    top: 250px;
 }
 
 .airpollution {
